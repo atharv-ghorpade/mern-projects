@@ -2,4 +2,4 @@
 hello-world.html
 html-tags.html
 img.jpg
-html-generics.html
+html-generics
