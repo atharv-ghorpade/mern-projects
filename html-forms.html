@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- CREATING AN EVENT REGISTRATION FORM -->
+    <form>
+        <h1>EVENT REGISTRATION</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br/><br/>
+
+        <label for="emailId">Email Id:</label>
+        <input type="text" name="email" id="emailId"><br/><br/>
+
+        <label for="phone">Phone no:</label>
+        <input type="text" name="phone" id="phone"><br/><br/>
+
+        <label for="occupation">Occupation:</label>
+        <select name="occupation" id="occupation">
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Others">Others</option>
+        </select><br/><br/>
+
+        
+        <label >Topic of Interest:</label><br/>
+
+        <input type="checkbox" id="html" name="html">
+        <label for="html">HTML</label><br/>
+
+        <input type="checkbox" id="css" name="css">
+        <label for="css">CSS</label><br/>
+
+        <input type="checkbox" id="JS" name="JS">
+        <label for="JS">JS</label><br/><br/>
+
+        <label for="comments">Comments:</label><br/>
+        <textarea name="comments" id="comments" rows="10" cols="100"></textarea><br/><br/>
+
+        <button value="Submit">Submit</button>
+    </form><br/><br/>
+
+    <!-- CREATING A FORM FOR JOB APPLICATION -->
+    <form>
+        <h1>JOB APPLICATION</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br/><br/>
+        <label for="emailID">Email Id:</label>
+        <input type="text" name="emailID" id="emailID"><br/><br/>
+        <label for="phone">Phone No:</label>
+        <input type="text" name="phone" id="phone"><br/><br/>
+        
+        <label for="resume">Upload resume here :</label>
+        <input type="file" name="resume" id="resume"><br/><br/>
+        
+        <label for="years">Experience (in years):</label>
+        <input type="number" name="years" id="years" min="0" max="50"><br/><br/>
+
+        <fieldset>
+            <legend>SKILLS</legend>
+            <input type="checkbox" name="html" id="html">
+            <label for="html">HTML</label><br/>
+
+            <input type="checkbox" name="css" id="css">
+            <label for="css">CSS</label><br/>
+
+            <input type="checkbox" name="JS" id="JS">
+            <label for="JS">JS</label><br/>
+        </fieldset><br/>
+
+        <label for="education">Highest education:</label>
+        <select name="education" id="education">
+            <option value="10">10 STD</option>
+            <option value="12">12 STD</option>
+            <option value="degree">Degree</option>
+            <option value="other">other</option>
+        </select><br/><br/>
+
+        <label for="availability">Availability:</label>
+        <fieldset id="availability">
+            <input type="radio" name="availability" id="full-time">
+            <label for="full-time">Full-time</label><br/>
+
+            <input type="radio" name="availability" id="part-time">
+            <label for="part-time">Part-time</label>
+        </fieldset><br/><br/>
+
+        <label for="comments">Additional Comments:</label><br/>
+        <textarea name="comments" id="comments" rows="10" cols="200"></textarea><br/><br/>
+
+        <button value="Submit">SUBMIT</button>
+    </form><br/><br/>
+
+    <!-- CREATING A INFORMATION FORM -->
+    <form>
+        <h1>INFORMATION</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br/><br/>
+            
+            <label for="emailId">Email Id:</label>
+            <input type="text" name="email" id="emailId"><br/><br/>
+
+            <label for="phone">Phone No:</label>
+            <input type="text" name="phone" id="phone"><br/><br/>
+
+            <label for="datpicker">DOB</label>
+            <input type="date" name="datpicker" id="datpicker"><br/><br/>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="Male1">Male</label>
+                <input type="radio" name="gender" id="Male1"><br/>
+                
+                <label for="Female1">Female</label>
+                <input type="radio" name="gender" id="Female1">
+            </fieldset><br/>
+            <!-- KEEP name="SAME IN ALL THE RADIO BTN IF YOU WANT TO SELECT ONLY ONE CHOICE" -->
+
+            <label for="Country">Country:</label>
+            <select name="Country" id="Country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="China">China</option>
+            </select>
+
+        </fieldset><br/>
+
+        <fieldset>
+            <legend>Address</legend>
+
+            <label for="Street">Street</label>
+            <input type="text" name="Street" id="Street"><br/><br/>
+
+            <label for="City">City</label>
+            <input type="text" name="City" id="City"><br/><br/>
+
+            <label for="State">State</label>
+            <input type="text" name="State" id="State"><br/><br/>
+
+            <label for="zipcode">ZipCode</label>
+            <input type="text" name="zipcode" id="zipcode"><br/>
+        </fieldset><br/>
+
+        <fieldset>
+            <legend>Other Detail</legend>
+            <label for="comments">Comments:</label><br/>
+            <textarea name="comments" id="comments" rows="10" cols="200"></textarea><br/><br/>
+
+            <input type="checkbox" id="T&C" name="T&C">
+            <label for="T&C">I agree to all the terms and conditions</label>
+        </fieldset><br/>
+
+        <button value="Submit">SUBMIT</button>
+    </form>
+</body>
+</html>
